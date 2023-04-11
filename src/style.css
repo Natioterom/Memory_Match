@@ -1,0 +1,25 @@
+** ::after, **::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.App{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 650px;
+    /* box-shadow: inset 0 0 8px #ad7fdc, 0 0 12px  #ad7fdc; */
+    margin-top: 20px;
+}
+.img_card{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin:10px;
+}
